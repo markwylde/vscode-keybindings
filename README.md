@@ -3,10 +3,10 @@ Adding the following command to your vscode keybindings will push the up key and
 keybindings.json
 ```json
 [{
-  "key": "ctrl+enter",
+  "key": "cmd+enter",
   "command": "workbench.action.terminal.sendSequence",
   "args": {
-    "text": "\u001b[A\u000D"
+    "text": "\u0003\u001b[A\u000D"
   }
 }]
 ```
